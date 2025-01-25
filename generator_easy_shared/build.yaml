@@ -1,13 +1,13 @@
 targets:
   $default:
     builders:
-      generator|annotations_easy_shared:
+      generator_easy_shared|annotations_easy_shared:
         enabled: true
 
 builders:
   generators:
     target: ":generator"
-    import: "package:generator/generator.dart"
+    import: "package:generator_easy_shared/generator_easy_shared.dart"
     builder_factories: ["easySharedBuilder"] #Builder name(BuilderOptions)
     build_extensions: { ".dart": [".g.part"] }
     auto_apply: dependents

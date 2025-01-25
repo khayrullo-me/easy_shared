@@ -1,8 +1,7 @@
-name: generator
-description: "A new Flutter package project."
+name: generator_easy_shared
+description: "description: A Flutter package that helps manage shared data efficiently across your application."
 version: 0.0.1
-homepage:
-publish_to: none
+homepage: https://github.com/khayrullo-me/genetated_shared.git
 
 environment:
   sdk: ^3.6.1
@@ -13,8 +12,7 @@ dependencies:
     sdk: flutter
   build: ^2.4.2
   source_gen: ^2.0.0
-  annotations_easy_shared:
-    path: ../annotations_easy_shared
+  annotations_easy_shared: ^0.0.2
 
 dev_dependencies:
   flutter_test:

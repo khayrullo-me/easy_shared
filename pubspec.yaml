@@ -1,8 +1,7 @@
 name: easy_shared
 description: "Easy Shared it can help you store your field"
 version: 0.0.1
-publish_to: none
-homepage: https://github.com/khayrullo-me/easy_shared.git
+homepage: https://github.com/khayrullo-me/genetated_shared.git
 
 environment:
   sdk: ^3.6.1
@@ -11,15 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  annotations_easy_shared:
-    path: annotations_easy_shared
+  annotations_easy_shared: ^0.0.2
   shared_preferences: ^2.3.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  generator:
-    path: generator
+  generator_easy_shared:
+    path: generator_easy_shared
   build_runner: ^2.4.14
 
 # For information on the generic Dart part of this file, see the
