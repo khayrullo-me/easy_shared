@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      generator|annotations:
+        enabled: true
+
+builders:
+  generators:
+    target: ":generator"
+    import: "package:generator/generator.dart"
+    builder_factories: ["easySharedBuilder"] #Builder name(BuilderOptions)
+    build_extensions: { ".dart": [".g.part"] }
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
