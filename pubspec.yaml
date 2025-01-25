@@ -1,7 +1,7 @@
 name: easy_shared
 description: "Easy Shared it can help you store your field"
 version: 0.0.1
-homepage: https://github.com/khayrullohLive/easy_shared.git
+homepage: https://github.com/khayrullo-me/easy_shared.git
 
 environment:
   sdk: ^3.6.1
