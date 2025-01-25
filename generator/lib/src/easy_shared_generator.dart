@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/src/builder/build_step.dart';
 import 'package:source_gen/source_gen.dart';
-import 'package:annotations/src/xshared_generator.dart';
+import 'package:annotations_easy_shared/src/xshared_generator.dart';
 
 import 'model_visitor.dart';
 

@@ -13,8 +13,8 @@ dependencies:
     sdk: flutter
   build: ^2.4.2
   source_gen: ^2.0.0
-  annotations:
-    path: ../annotations
+  annotations_easy_shared:
+    path: ../annotations_easy_shared
 
 dev_dependencies:
   flutter_test:

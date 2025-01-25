@@ -3,3 +3,7 @@
 - Fixed minor bugs.
 - Improved null safety migration.
 - Added new features for shared field storage.
+- ## 0.1.2
+- Fixed minor bugs.
+- Improved null safety migration.
+- Added new features for shared field storage.

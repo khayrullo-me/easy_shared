@@ -1,7 +1,7 @@
-name: annotations
+name: annotations_easy_shared
 description: "A Flutter library designed to help developers store and manage data seamlessly across their applications.version: 0.1.0-alpha.02"
 homepage: https://github.com/khayrullo-me/easy_shared.git
-version: 0.0.1
+version: 0.0.2
 environment:
   sdk: ^3.6.1
   flutter: ">=1.17.0"

@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  annotations:
-    path: annotations
+  annotations_easy_shared:
+    path: annotations_easy_shared
   shared_preferences: ^2.3.5
 
 dev_dependencies:
